@@ -5,7 +5,7 @@ $data = json_decode(file_get_contents('php://input'), TRUE);
 file_put_contents('file.txt', '$data: '.print_r($data, 1)."\n", FILE_APPEND);
 
 
-//https://api.telegram.org/bot5729087658:AAFM9a2YHsfIGPKBkvN42phEQL4vpEw2oPs/setwebhook?url=https://mrjamshid1998.github.io/telegrambottest/index.php
+//https://api.telegram.org/bot5729087658:AAFM9a2YHsfIGPKBkvN42phEQL4vpEw2oPs/setwebhook?url=https://mrjamshid1998.github.io/telegrambottest/bot/index.php
 
 
 # Обрабатываем ручной ввод или нажатие на кнопку
